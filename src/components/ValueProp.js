@@ -1,20 +1,37 @@
-import React from 'react';
-import Button from "./Button";
+import React from "react"
+import Button from "./Button"
 
 const ValueProp = props => {
-
   return (
     <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
-          <h1>Here is our amazing product</h1>
-          <p className="main-subtitle">Please buy our amazing product. You&apos;re gonna love it. Promise.</p>
-          <Button label="Get Started" />
+          SPECIAL VIRTUAL LEARNING PARTY!
+          <div className="main-title">
+            <h1>
+              <b>
+                The Economy Has Already Shifted {"&"} The Time To Catch Up Is
+                Right Now... Or Else We Risk Getting Left Behind.
+              </b>
+            </h1>
+          </div>
+          <div className="main-subtitle">
+            <p>
+              Tony Robbins {"&"} Dean Graziosi Pull Back The Curtain To Reveal
+              Their Secret To THRIVING In<b> Up {"&"} Down Markets</b> And How
+              You Could Use this Same Model to{" "}
+              <b>
+                Create NEXT LEVEL Success {"&"} Impact During These Uncertain
+                Times!!
+              </b>
+            </p>
+          </div>
         </div>
         <div className="main-photo"></div>
+        <Button label="Get Started" />
       </div>
     </section>
   )
-};
+}
 
-export default ValueProp;
+export default ValueProp

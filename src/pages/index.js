@@ -12,9 +12,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <ValueProp />
+    <Testimonials />
     <ProductBenefits />
     <ProductFeatures />
-    <Testimonials />
     <CallToAction />
   </Layout>
 )

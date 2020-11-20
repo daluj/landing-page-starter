@@ -4,9 +4,9 @@ import Button from "./Button"
 const ValueProp = props => {
   return (
     <section className="value-prop">
+      <div className="main-subtitle">SPECIAL VIRTUAL LEARNING PARTY!</div>
       <div className="value-prop-content">
         <div className="main-message">
-          SPECIAL VIRTUAL LEARNING PARTY!
           <div className="main-title">
             <h1>
               <b>
@@ -28,7 +28,7 @@ const ValueProp = props => {
           </div>
         </div>
         <div className="main-photo"></div>
-        <Button label="Get Started" />
+        <Button label="Check Availability Here!" />
       </div>
     </section>
   )
